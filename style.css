@@ -26,6 +26,20 @@
 .container{
    margin: 0 auto;
     width: 90%;
-    height: 500px;
-    background-color: rgba(5, 5, 5, 0.7);
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 15px 20px;
+    background-color: rgba(5, 50, 90, 0.2);
+    border-radius: 20px;
+}
+
+.container a:hover{
+    background-color: rgb(248, 110, 68);
 }
