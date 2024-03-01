@@ -10,6 +10,10 @@
         font-size: 30px;
     }
 
+    .container{
+        margin: 0px auto;
+    }
+
     .boxcard a{
         display: flex;
         margin:  auto;
