@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px){
+    .boxtop img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        margin-right: 50px;
+    }
+
+    .boxtop h1{
+        font-size: 30px;
+    }
+
+    .boxcard a{
+        display: flex;
+        margin:  auto;
+        width: 300px;
+    }
+    
+    .card ,.boxcard{
+        display: flex;
+        width: 400px;
+        height: 400px;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.144);
+        flex-direction: column;
+        border-radius: 25px;
+    }
+    
+    .card   a{
+        
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        padding: 10px 15px;
+        background-color: rgba(252, 94, 46, 0.219);
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .h2card{
+        font-size: 35px;
+    }
+
+}
