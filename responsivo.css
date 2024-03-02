@@ -33,7 +33,7 @@
     .card ,.boxcard{
         display: flex;
         width: 350px;
-        height: 350px;
+        height: 370px;
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.144);
         flex-direction: column;
@@ -53,6 +53,7 @@
     
     .h2card{
         font-size: 35px;
+        margin-top: 10px;
     }
 
 }
