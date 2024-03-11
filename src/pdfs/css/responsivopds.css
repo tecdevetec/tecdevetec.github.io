@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px){
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.199);
+        flex-direction: column;
+        border-radius: 20px;
+        margin: 50px 0;
+        padding: 20px 0;
+    }
+
+    a{
+        color: black;
+        font-size: 25px;
+        width: 210px;
+        text-decoration: none;
+        padding: 10px 50px;
+        border-radius: 25px;
+        background-color: rgba(252, 94, 46, 0.219);
+        flex-direction: column;
+    }
+
+}
